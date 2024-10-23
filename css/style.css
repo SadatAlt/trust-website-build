@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+#TopHeader{
+    padding: 25px 0;
+    background: #3e3e3e;
+}
+.TopHeaderContent{
+    display: flex;
+    justify-content: space-between;
+}
+.TopHeaderContentLeft{
+    display: flex;
+    gap: 42px;
+}
+.TopHeaderContentLeft p{
+    color: #ffffff;
+    font-size: 12px;
+    font-family:"Open Sans", sans-serif;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.TopHeaderContentLeft i{
+    margin-right: 12px;
+    font-size: 15px;
+    display: inline-block;
+}
+.TopHeaderContentRight a{
+ color: #ffffff;
+ margin-right: 20px;
+ transition: .4s;
+}
+.TopHeaderContentRight a:hover{
+    color: #f8b864;
+}
+.logowithmenu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    font-size: 15px;
+    font-family:"Open Sans", sans-serif;
+    color: #555555;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 40px;
+    line-height: 90px;
+    transition: .4s;
+}
+.menu ul li a:hover{
+    color: #f8b864;
+}
+.logo{
+    padding-top: 22px;
+}
+#bannerpart{
+
+background: url(../Template/banner.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.overlay{
+    background: #0000006c;
+    padding-top: 310px;
+    padding-bottom: 430px;
+}
+.content{
+    text-align: center;
+    color: #ffffff;
+}
+.content h3{
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    padding-bottom: 36px;
+}
+.content span{
+    color: #f8b864;
+}
+.content h1{
+    font-size: 60px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 72px;
+    padding-bottom: 36px;
+}
+.content p{
+    font-size: 18px;
+    font-family:"Open Sans", sans-serif;
+    padding: 0 616px;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+.content a{
+    padding: 20px 50px;
+    background: #f8b864;
+    border-radius: 50px;
+    display: inline-block;
+    font-family:"Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    transition: .4s;
+}
+.content a:hover{
+    color: #555555;
+    background: #ffffff;
+}
